@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BDDBC2931A0E925000C1D2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2921A0E925000C1D2C9 /* main.m */; };
-		BDDBC2961A0E925000C1D2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2951A0E925000C1D2C9 /* AppDelegate.m */; };
-		BDDBC2991A0E925000C1D2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2981A0E925000C1D2C9 /* ViewController.m */; };
+		BDDBC2961A0E925000C1D2C9 /* MoviePlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2951A0E925000C1D2C9 /* MoviePlayerAppDelegate.m */; };
+		BDDBC2991A0E925000C1D2C9 /* MyMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2981A0E925000C1D2C9 /* MyMovieViewController.m */; };
 		BDDBC29C1A0E925000C1D2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDBC29A1A0E925000C1D2C9 /* Main.storyboard */; };
 		BDDBC29E1A0E925000C1D2C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDBC29D1A0E925000C1D2C9 /* Images.xcassets */; };
 		BDDBC2A11A0E925000C1D2C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDBC29F1A0E925000C1D2C9 /* LaunchScreen.xib */; };
 		BDDBC2AD1A0E925000C1D2C9 /* StreamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2AC1A0E925000C1D2C9 /* StreamingTests.m */; };
+		BDDBC2B71A0E93EF00C1D2C9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDBC2B61A0E93EF00C1D2C9 /* MediaPlayer.framework */; };
+		BDDBC2BA1A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2B91A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.m */; };
+		BDDBC2BD1A10F38000C1D2C9 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2BC1A10F38000C1D2C9 /* MyImageView.m */; };
+		BDDBC2C01A10F4E900C1D2C9 /* MyLocalMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2BF1A10F4E900C1D2C9 /* MyLocalMovieViewController.m */; };
+		BDDBC2C61A10F72400C1D2C9 /* MyOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2C51A10F72400C1D2C9 /* MyOverlayViewController.m */; };
+		BDDBC2C91A10F8BA00C1D2C9 /* MyStreamingMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC2C81A10F8BA00C1D2C9 /* MyStreamingMovieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +36,27 @@
 		BDDBC28D1A0E925000C1D2C9 /* Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDBC2911A0E925000C1D2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDBC2921A0E925000C1D2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BDDBC2941A0E925000C1D2C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BDDBC2951A0E925000C1D2C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDDBC2971A0E925000C1D2C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BDDBC2981A0E925000C1D2C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDDBC2941A0E925000C1D2C9 /* MoviePlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayerAppDelegate.h; sourceTree = "<group>"; };
+		BDDBC2951A0E925000C1D2C9 /* MoviePlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerAppDelegate.m; sourceTree = "<group>"; };
+		BDDBC2971A0E925000C1D2C9 /* MyMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMovieViewController.h; sourceTree = "<group>"; };
+		BDDBC2981A0E925000C1D2C9 /* MyMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMovieViewController.m; sourceTree = "<group>"; };
 		BDDBC29B1A0E925000C1D2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDDBC29D1A0E925000C1D2C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDDBC2A01A0E925000C1D2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDDBC2A61A0E925000C1D2C9 /* StreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDBC2AB1A0E925000C1D2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDBC2AC1A0E925000C1D2C9 /* StreamingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingTests.m; sourceTree = "<group>"; };
+		BDDBC2B61A0E93EF00C1D2C9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BDDBC2B81A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerUserPrefs.h; sourceTree = "<group>"; };
+		BDDBC2B91A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerUserPrefs.m; sourceTree = "<group>"; };
+		BDDBC2BB1A10F38000C1D2C9 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		BDDBC2BC1A10F38000C1D2C9 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		BDDBC2BE1A10F4E900C1D2C9 /* MyLocalMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocalMovieViewController.h; sourceTree = "<group>"; };
+		BDDBC2BF1A10F4E900C1D2C9 /* MyLocalMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocalMovieViewController.m; sourceTree = "<group>"; };
+		BDDBC2C41A10F72400C1D2C9 /* MyOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOverlayViewController.h; sourceTree = "<group>"; };
+		BDDBC2C51A10F72400C1D2C9 /* MyOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOverlayViewController.m; sourceTree = "<group>"; };
+		BDDBC2C71A10F8BA00C1D2C9 /* MyStreamingMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStreamingMovieViewController.h; sourceTree = "<group>"; };
+		BDDBC2C81A10F8BA00C1D2C9 /* MyStreamingMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStreamingMovieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDBC2B71A0E93EF00C1D2C9 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 		BDDBC2841A0E925000C1D2C9 = {
 			isa = PBXGroup;
 			children = (
+				BDDBC2B61A0E93EF00C1D2C9 /* MediaPlayer.framework */,
 				BDDBC28F1A0E925000C1D2C9 /* Streaming */,
 				BDDBC2A91A0E925000C1D2C9 /* StreamingTests */,
 				BDDBC28E1A0E925000C1D2C9 /* Products */,
@@ -81,10 +100,20 @@
 		BDDBC28F1A0E925000C1D2C9 /* Streaming */ = {
 			isa = PBXGroup;
 			children = (
-				BDDBC2941A0E925000C1D2C9 /* AppDelegate.h */,
-				BDDBC2951A0E925000C1D2C9 /* AppDelegate.m */,
-				BDDBC2971A0E925000C1D2C9 /* ViewController.h */,
-				BDDBC2981A0E925000C1D2C9 /* ViewController.m */,
+				BDDBC2941A0E925000C1D2C9 /* MoviePlayerAppDelegate.h */,
+				BDDBC2951A0E925000C1D2C9 /* MoviePlayerAppDelegate.m */,
+				BDDBC2971A0E925000C1D2C9 /* MyMovieViewController.h */,
+				BDDBC2981A0E925000C1D2C9 /* MyMovieViewController.m */,
+				BDDBC2B81A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.h */,
+				BDDBC2C41A10F72400C1D2C9 /* MyOverlayViewController.h */,
+				BDDBC2C51A10F72400C1D2C9 /* MyOverlayViewController.m */,
+				BDDBC2C71A10F8BA00C1D2C9 /* MyStreamingMovieViewController.h */,
+				BDDBC2C81A10F8BA00C1D2C9 /* MyStreamingMovieViewController.m */,
+				BDDBC2B91A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.m */,
+				BDDBC2BB1A10F38000C1D2C9 /* MyImageView.h */,
+				BDDBC2BC1A10F38000C1D2C9 /* MyImageView.m */,
+				BDDBC2BE1A10F4E900C1D2C9 /* MyLocalMovieViewController.h */,
+				BDDBC2BF1A10F4E900C1D2C9 /* MyLocalMovieViewController.m */,
 				BDDBC29A1A0E925000C1D2C9 /* Main.storyboard */,
 				BDDBC29D1A0E925000C1D2C9 /* Images.xcassets */,
 				BDDBC29F1A0E925000C1D2C9 /* LaunchScreen.xib */,
@@ -219,9 +248,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDDBC2991A0E925000C1D2C9 /* ViewController.m in Sources */,
-				BDDBC2961A0E925000C1D2C9 /* AppDelegate.m in Sources */,
+				BDDBC2991A0E925000C1D2C9 /* MyMovieViewController.m in Sources */,
+				BDDBC2BA1A10F1EB00C1D2C9 /* MoviePlayerUserPrefs.m in Sources */,
+				BDDBC2961A0E925000C1D2C9 /* MoviePlayerAppDelegate.m in Sources */,
+				BDDBC2C61A10F72400C1D2C9 /* MyOverlayViewController.m in Sources */,
+				BDDBC2C91A10F8BA00C1D2C9 /* MyStreamingMovieViewController.m in Sources */,
+				BDDBC2C01A10F4E900C1D2C9 /* MyLocalMovieViewController.m in Sources */,
 				BDDBC2931A0E925000C1D2C9 /* main.m in Sources */,
+				BDDBC2BD1A10F38000C1D2C9 /* MyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +446,7 @@
 				BDDBC2B21A0E925000C1D2C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDDBC2B31A0E925000C1D2C9 /* Build configuration list for PBXNativeTarget "StreamingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +455,7 @@
 				BDDBC2B51A0E925000C1D2C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

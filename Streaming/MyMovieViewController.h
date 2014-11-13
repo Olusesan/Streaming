@@ -17,7 +17,7 @@
 @interface MyMovieViewController : UIViewController
 {
 @private
-    MPMoviePlayerController *moviePlayerController;
+    MPMoviePlayerController  *moviePlayerController;
     
     IBOutlet MoviePlayerAppDelegate *appDelegate;
     

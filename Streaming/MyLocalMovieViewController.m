@@ -20,6 +20,7 @@
 -(NSURL *)localMovieURL
 {
     NSURL *theMovieURL = [[NSURL alloc]initWithString:@"http://storage.googleapis.com/manc-vs-newctle/Manchester%20City%20vs%20Newcastle%20United%200-2-iphonepod.mp4"];
+    
     NSBundle *bundle = [NSBundle mainBundle];
     if (bundle)
     {
